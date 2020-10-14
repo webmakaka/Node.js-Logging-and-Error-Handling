@@ -1,22 +1,22 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/001-express-request-logging/"
+  - package-ecosystem: 'npm'
+    directory: '/1-express-request-logging/'
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/002-express-morgan/"
+      interval: 'daily'
+  - package-ecosystem: 'npm'
+    directory: '/2-express-morgan/'
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/003-express-error-handling/"
+      interval: 'daily'
+  - package-ecosystem: 'npm'
+    directory: '/3-express-error-handling/'
     schedule:
-      interval: "daily"      
-  - package-ecosystem: "npm"
-    directory: "/004-uncaught-exception/"
+      interval: 'daily'
+  - package-ecosystem: 'npm'
+    directory: '/4-uncaught-exception/'
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/005-unhandled-promise-rejection/"
+      interval: 'daily'
+  - package-ecosystem: 'npm'
+    directory: '/5-unhandled-promise-rejection/'
     schedule:
-      interval: "daily"            
+      interval: 'daily'

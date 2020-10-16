@@ -1,0 +1,23 @@
+{
+  "name": "morgan-winston-example",
+  "version": "1.0.0",
+  "description": "example usage of morgan and winston to log in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "morgan",
+    "winston",
+    "log",
+    "nodejs"
+  ],
+  "author": "deepak chandola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}
